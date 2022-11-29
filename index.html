@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Activity</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  
+ 
+
+  <style>
+    .btn{
+        border-radius: 0;
+        padding:15px;
+        margin: 10px;
+    }
+   .navbar{
+    margin-bottom: 0;
+    
+   
+  
+   }
+   .navbar-brand{
+    padding:0;
+   }
+    
+    
+  </style>
+  
+</head>
+
+
+<body>
+  <div id="first-section"></div>
+    <div class="jumbotron">
+        <video id="video-background" preload muted autoplay loop>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <div class="container text-center">
+          <h1 class="b">Hello Daddy! <span class="a">Czar Jules Luz</span>.
+            <br>Happiest Birthday to you!!!
+          </h1>
+        
+            <button type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='#home'">Click Me! 
+                <i class="bi-arrow-down"></i> 
+            </button>    
+        </div>
+        
+    </div>
+  
+    <div id="home"></div>
+    <nav class=" navbar navbar-expand-lg bg-info pb-0">
+      <div class="container-fluid bg-white text-white">
+        <a class="navbar-brand" href="#second-section"><span class="c">Czar Jules Luz</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#first-section">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#second-section">About</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#third-section" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#third-section">Front-End</a></li>
+                <li><a class="dropdown-item" href="#third-section">Back-End</a></li>
+              </ul>
+               <li class="nav-item">
+                <a class="nav-link" href="#fourth-section">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fifth-section">Contact</a>
+              </li> 
+            </li> 
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  <div id="second-section">  </div>
+    <section class="container-fluid">
+      <div class="md-text-primary text-center p-5">
+        <h1 class="c">About</h1>
+       
+        <div class="row">
+          <img src="1" class="img-fluid" alt="skills1">
+        </div>
+        <div class="row">
+          <div class="col-md text-center float-center text-dark">
+            
+              <img src="Capture3.PNG" class="img-fluid float-center w-50" alt="profilephoto">
+            
+            <div class="fs-2 p-2"> Who's this gal?
+
+            </div>
+           
+            <div class="fs-6 ms-4 me-4">I'm a Full-Stack Developer for Kodego in Ph.<br>
+              I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+              <br>Let's make something special.
+            </div>
+
+
+          </div>
+          <div class="col-md">
+            <img src="Capture2.PNG" class="img-fluid float-center w-100" alt="skills1">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div id="third-section">  </div>
+    <section class="container bg-light p-5">
+      <div class="md-text-primary text-center p-5">
+        <h1 class="c">Projects</h1>
+      </div>
+      <div class="button text-center">
+        <button type="button" class="btn btn-light">All</button>
+        <button type="button" class="btn btn-light">Fron-End</button>
+        <button type="button" class="btn btn-light">Back-End</button>
+      </div>
+      <div class="gallery">
+        <div class="row p-0 m-0">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c9.jpg">
+                <img src="c9.jpg" alt="1" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c10.jpg">
+                <img src="c10.jpg" alt="2" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c1.jpg">
+                <img src="c1.jpg" alt="3" style="width:100%">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row p-0 m-0">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c2.jpg">
+                <img src="c2.jpg" alt="4" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c5.jpg">
+                <img src="c5.jpg" alt="5" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c6.jpg">
+                <img src="c6.jpg" alt="6" style="width:100%">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row p-0 m-0">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c7.jpg">
+                <img src="c7.jpg" alt="7" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c8.jpg">
+                <img src="c8.jpg" alt="8" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="c16.jpg">
+                <img src="c16.jpg" alt="9" style="width:100%">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <div id="fourth-section">  </div>
+    <section class="container-fluid p-5">
+      <div class="md-text-primary text-center p-5">
+        <h1 class="c">Blogs</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="c11.jpg">
+              <img src="c11.jpg" alt="a" style="width:100%">
+              <div class="caption">
+                <p>Breaking your coder's block</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="c14.jpg">
+              <img src="c14.jpg" alt="b" style="width:100%">
+              <div class="caption">
+                <p>Awake! This is your brain on caffeine</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="c15.jpg">
+              <img src="c15.jpg" alt="c" style="width:100%">
+              <div class="caption">
+                <p>Getting handle on handlebars</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="fifth-section">  </div>
+    <footer class="container-{breakpoint} text-center float-center bg-dark p-5">
+      
+        
+        <div class="md-text-primary text-center p-4">
+          <h1 class="d">Contact</h1>
+        </div>
+      
+        <p class="text-info fs-4">Have a question or want to work together?</p>
+        
+        <div class="formContainer">
+          <form class="bg-dark m-5 p-3">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon2">
+            </div>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+            </div>
+            <div class="input-group">
+              <span class="input-group-text">Your Message</span>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-info float-end" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+
+      
+
+
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

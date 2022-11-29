@@ -1,0 +1,79 @@
+
+
+span.a{
+    color: red;
+}
+h1.b{
+    color: white;
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    width: 120%;
+}
+
+.jumbotron {
+position: relative;
+overflow: hidden;
+padding:16%;
+margin:0;
+}
+
+.jumbotron .container {
+position: relative;
+z-index: 1;
+
+}
+.navbar{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+
+.btn{
+    outline: white;
+    color: white;
+}
+.d-flex{
+    padding: 0px;
+}
+span.c{
+    color:red;
+    font-size: 30px;
+    font-weight:bold
+}
+li{
+    padding: 20px;
+    font-size: 25px;
+}
+h1.c{
+    font-size: 50px;
+    
+    
+}
+.row{
+    text-align: center;
+}
+
+
+h1.d{
+    font-size: 50px;
+    color: white;
+    
+    
+}
+.gallery.thumbnail{
+    
+    width:200px; 
+    height:150px;}
+
+
+
+
